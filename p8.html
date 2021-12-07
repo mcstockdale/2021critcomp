@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Michael Stockdale</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- navigation menu -->
+    <div class="nav">
+      <h1>Michael Stockdale</h1>
+      <ul>
+        <li>Project <a href="p1.html">#1, Lost and Found</a></li>
+        <li>Project <a href="p2.html">#2, Face Generator</a></li>
+        <li>Project <a href="p3.html">#3, Experimental Clock</a></li>
+        <li>Project <a href="p4.html">#4, Exquisite Corpse</a></li>
+        <li>Project <a href="p5.html">#5, Optical Illusion</a></li>
+        <li>Project <a href="p6.html">#6, Data Portrait</a></li>
+        <li>Project <a href="p7.html">#7, Autobiographical Game</a></li>
+        <li>Project <a href="p8.html">#8, Experimental Camera</a></li>
+        <li>Project <a href="p9.html">#9</a></li>
+      </ul>
+    </div>
+
+    <!-- main content -->
+     <div class="content">
+      <!-- 1. give your project  a titile -->
+
+      <h1>
+        Project #8: Experimental Camera
+      </h1>
+
+      <!-- 2. embed your p5 sketch -->
+
+      <div class="fullwidth">
+        <!-- below width and height refers to the dimensions of your sketch-->
+
+        <iframe
+          allow="camera"
+          width="400px"
+          height="400px"
+          src="https://editor.p5js.org/mcstockdale/full/H_kG1mEXt"></iframe>
+        ></iframe>
+      </div>
+
+      <!-- 3. write a short description to describe what the work is about -->
+      <h1>
+        Description
+      </h1>
+
+      <p>
+        For Project 8, we were given the task of creating an "experimental camera." This camera we create should
+        alter the image seen by the user's webcam.
+        For my "camera," I used the CLM tracking library in p5.js to track various facial features, and draw the
+        corresponging emojis over the view. An "emoji camera."
+      </p>
+      <!-- 4. reflection -->
+    <h1>
+        Design Process
+      
+      
+      </h1>
+    <p>
+   At first after watching the tutorials, I wasn't sure what kind of "filter" I could make in p5. The pointilist thing Xin
+      made was cool, but it took a while to generate a full image, so using it to recreate the webcam image would be hard, because you would
+      need to stay still in the frame to match the original to the recreation.
+      In Lab class, we did a live demo of CLM face tracking, and I figured I would use this method for my camera. 
+      With this tool I could pick specific points on the face to draw images or shapes.
+      In class, I made an example that replaces eyes with buttons, like in the movie Coraline. 
+      This method could be used for a bunch of different points on the face.
+      While I was texting, I came up with the idea to use emojis to recreate facial features.
+    </p>
+      <h1>
+        Reflection
+      </h1>
+
+      <p>
+  A lot of people use emojis every day, including myself. Their use often removes a lot of the meaning behind a message for the sake of speed.
+        Why should I text "that video made me laugh and I thought it was very funny," when I could send a few laughing emojis?
+        The same idea takes form in this "camera." Why send a nice picture of someones face, when you could send some emojis?
+      </p>
+    </div>
+  </body>
+</html>

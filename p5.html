@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Michael Stockdale | Code 2 Portfolio</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- navigation menu -->
+    <div class="nav">
+      <h1>Michael Stockdale</h1>
+      <ul>
+        <li>Project <a href="p1.html">#1, Lost and Found</a></li>
+        <li>Project <a href="p2.html">#2, Face Generator</a></li>
+        <li>Project <a href="p3.html">#3, Experimental Clock</a></li>
+        <li>Project <a href="p4.html">#4, Exquisite Corpse</a></li>
+        <li>Project <a href="p5.html">#5, OPtical Illusion</a></li>
+        <li>Project <a href="p6.html">#6</a></li>
+        <li>Project <a href="p7.html">#7</a></li>
+        <li>Project <a href="p8.html">#8</a></li>
+        <li>Project <a href="p9.html">#9</a></li>
+      </ul>
+    </div>
+
+  <div class="content">
+      <!-- 1. give your project  a titile -->
+
+      <h1>
+        Project #5: OPtical Illusion
+      </h1>
+
+      <!-- 2. embed your p5 sketch -->
+
+      <div class="fullwidth">
+        <!-- below width and height refers to the dimensions of your sketch-->
+
+        <iframe
+          allow="camera"
+          width="400px"
+          height="400px"
+          src="https://preview.p5js.org/mcstockdale/embed/wNRSlZIQK"></iframe>
+        ></iframe>
+      </div>
+
+      <!-- 3. write a short description to describe what the work is about -->
+      <h1>
+        Description
+      </h1>
+
+      <p>
+        For Project 5, we were tasked with exploring patterns prevalent in cour cultures historically. We would take aspects of this pattern, and attempt
+        to turn it into a sort of optical illusion using code.
+      </p>
+      <!-- 4. reflection -->
+    <h1>
+        Design Process
+      </h1>
+    <p>
+      My family is Greek, and the only pattern that comes to mind is the "key pattern"/meander:
+      <img src = "https://cdn.glitch.me/5da19b71-a5bc-45aa-954d-a42f9b59d932%2F6d13d6f6-f26b-4d96-b4f7-2310d3dd8790.image.png?v=1633482523285"</img>
+      It is comprised of a single, continious line and a repeating pattern. How I would turn this into an optical illusion, I honestly had no clue.
+      The only thing I could think of was rotating a grid of these lines, so every 90 degrees the line matches up and the pattern continues.
+      
+      
+    </p>
+      <h1>
+        Reflection
+      </h1>
+
+      <p>
+      My code is comprised of a for loop that draws a grid of images. 
+        <img src= "https://cdn.glitch.me/5da19b71-a5bc-45aa-954d-a42f9b59d932%2Fkey.png?v=1633483969660" </img>
+        The image was made to look like it is one continuoius line, instead of a grid of different shapes.
+        The intention was for each image on the grid to rotate about it's center, every 90 degrees, the pattern would reappear once the shapes lined up again.
+        I could not for the life of me figure out how to get the inmages to rotate based on their center. I tried translating, translating with push and pop, even translating inside
+        the for loop, but no matter what I could not get the intended effect.
+        For now, I have it set so the images rotate about the regular origin of the sketch.
+        There is no translate function currently because I could not figure it out.
+        
+      </p>
+    </div>
+  </body>
+</html>
